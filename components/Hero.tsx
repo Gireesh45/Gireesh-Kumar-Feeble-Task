@@ -24,7 +24,7 @@
 // //                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#E6F2FF] text-[#0066FF] text-sm font-medium mb-6 shadow-sm"
 // //                 >
 // //                     {/* <Sparkles size={16} className="" /> */}
-                    
+
 // //                    <Button
 // //                    variant="transparent"
 // //                                className="h-8 px-6 w-55 rounded-full text-sm font-semibold shadow-sm hover:shadow-md transition-all"
@@ -148,7 +148,7 @@
 
 //       {/* Content */}
 //       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 text-center">
-        
+
 //         {/* Badge */}
 //         <motion.div
 //           initial={{ opacity: 0, y: 16 }}
@@ -273,12 +273,12 @@ export default function Hero() {
       {/* Background visuals */}
       <CloudBackground />
       {/* <FlyingBirds /> */}
-      <TopBirds/>
-      
+      <TopBirds />
+
 
       {/* Content */}
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-4 text-center">
-        
+
         {/* Badge */}
         {/* <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -295,11 +295,11 @@ export default function Hero() {
 </span>
         </motion.div> */}
         <motion.div
-  initial={{ opacity: 0, y: 10 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.4 }}
-  style={{padding: '5px'}}
-  className="
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4 }}
+          style={{ padding: '5px' }}
+          className="
     inline-flex items-center gap-3
     px-4 py-2
     rounded-full
@@ -308,10 +308,10 @@ export default function Hero() {
     text-sm font-medium
     shadow-sm
   "
->
-  {/* Left dots bubble */}
-  <span
-    className="
+        >
+          {/* Left dots bubble */}
+          <span
+            className="
       flex items-center justify-center
       h-6 w-10
       rounded-full
@@ -321,13 +321,13 @@ export default function Hero() {
       font-bold
       leading-none
     "
-  >
-    •••
-  </span>
+          >
+            •••
+          </span>
 
-  {/* Text */}
-  <span>#1 iMessage Automation Tool</span>
-</motion.div>
+          {/* Text */}
+          <span>#1 iMessage Automation Tool</span>
+        </motion.div>
 
 
         {/* Heading */}
@@ -373,34 +373,34 @@ export default function Hero() {
             sm:flex-row 
           "
         >
-            <div className="w-full flex flex-row items-center justify-around gap-6" style={{ marginTop: "24px" }}>
-          <Button
-            variant="primary"
-            className="h-8 px-6 w-28 rounded-full text-sm font-semibold mt-6"
-          >
-            Get Started
-          </Button>
+          <div className="w-full flex flex-row items-center justify-around gap-6" style={{ marginTop: "24px" }}>
+            <Button
+              variant="primary"
+              className="h-8 px-6 w-28 rounded-full text-sm font-semibold mt-6"
+            >
+              Get Started
+            </Button>
 
-          <Button
-  variant="outline"
-  className="h-8 px-6 rounded-full text-sm font-medium
+            <Button
+              variant="secondary"
+              className="h-8 px-6 rounded-full text-sm font-medium
     flex items-center gap-4 border border-gray-500
   "
->
-   <Image
-              src="/Vector.png"
-              alt="logo"
-              width={20}
-              height={5}
-              style={{ marginLeft: "5px" }}
-              className="h-4 px-20 object-contain bg-transparent rounded-2xl"
-            />
+            >
+              <Image
+                src="/Vector.png"
+                alt="logo"
+                width={20}
+                height={5}
+                style={{ marginLeft: "5px" }}
+                className="h-4 px-20 object-contain bg-transparent rounded-2xl"
+              />
 
-  <span className="h-4 w-px bg-gray-500" />
+              <span className="h-4 w-px bg-gray-500" />
 
-  <span style={{ marginRight: "5px" }}>Download the Mac app</span>
-</Button>
-</div>
+              <span style={{ marginRight: "5px" }}>Download the Mac app</span>
+            </Button>
+          </div>
 
         </motion.div>
 
@@ -414,9 +414,9 @@ export default function Hero() {
           Scroll to learn more ↓
         </motion.div>
       </div>
-      <BottomBirds/>
+      <BottomBirds />
     </section>
 
-    
+
   );
 }
